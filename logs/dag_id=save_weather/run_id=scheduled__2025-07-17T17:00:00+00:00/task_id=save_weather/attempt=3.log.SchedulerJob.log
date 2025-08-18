@@ -1,0 +1,1 @@
+[2025-07-17T21:20:44.048+0300] {scheduler_job_runner.py:769} ERROR - Executor reports task instance <TaskInstance: save_weather.save_weather scheduled__2025-07-17T17:00:00+00:00 [queued]> finished (failed) although the task says it's queued. (Info: None) Was the task killed externally?

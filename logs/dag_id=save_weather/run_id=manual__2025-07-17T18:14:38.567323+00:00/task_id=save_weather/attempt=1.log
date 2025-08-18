@@ -1,0 +1,49 @@
+[2025-07-17T21:14:42.092+0300] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-07-17T21:14:42.130+0300] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: save_weather.save_weather manual__2025-07-17T18:14:38.567323+00:00 [queued]>
+[2025-07-17T21:14:42.143+0300] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: save_weather.save_weather manual__2025-07-17T18:14:38.567323+00:00 [queued]>
+[2025-07-17T21:14:42.144+0300] {taskinstance.py:2303} INFO - Starting attempt 1 of 4
+[2025-07-17T21:14:42.170+0300] {taskinstance.py:2327} INFO - Executing <Task(PythonOperator): save_weather> on 2025-07-17 18:14:38.567323+00:00
+[2025-07-17T21:14:42.175+0300] {standard_task_runner.py:63} INFO - Started process 93387 to run task
+[2025-07-17T21:14:42.181+0300] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'save_weather', 'save_weather', 'manual__2025-07-17T18:14:38.567323+00:00', '--job-id', '15', '--raw', '--subdir', 'DAGS_FOLDER/air.py', '--cfg-path', '/tmp/tmppenzxizi']
+[2025-07-17T21:14:42.185+0300] {standard_task_runner.py:91} INFO - Job 15: Subtask save_weather
+[2025-07-17T21:14:42.243+0300] {task_command.py:426} INFO - Running <TaskInstance: save_weather.save_weather manual__2025-07-17T18:14:38.567323+00:00 [running]> on host LT.localdomain
+[2025-07-17T21:14:42.333+0300] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Walter' AIRFLOW_CTX_DAG_ID='save_weather' AIRFLOW_CTX_TASK_ID='save_weather' AIRFLOW_CTX_EXECUTION_DATE='2025-07-17T18:14:38.567323+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-17T18:14:38.567323+00:00'
+[2025-07-17T21:14:42.334+0300] {taskinstance.py:430} INFO - ::endgroup::
+[2025-07-17T21:14:43.505+0300] {logging_mixin.py:188} WARNING - /home/wal/airflow/dags/air.py:45 UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+[2025-07-17T21:14:43.508+0300] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-07-17T21:14:43.508+0300] {taskinstance.py:2890} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/wal/airflowDev/air-env.10/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/wal/airflowDev/air-env.10/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/wal/airflowDev/air-env.10/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/wal/airflowDev/air-env.10/lib/python3.10/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+  File "/home/wal/airflowDev/air-env.10/lib/python3.10/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/wal/airflow/dags/air.py", line 45, in fetch_and_post
+    df.to_sql('weather', con=engine, if_exists='append', index=False)
+  File "/home/wal/airflowDev/air-env.10/lib/python3.10/site-packages/pandas/util/_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+  File "/home/wal/airflowDev/air-env.10/lib/python3.10/site-packages/pandas/core/generic.py", line 3106, in to_sql
+    return sql.to_sql(
+  File "/home/wal/airflowDev/air-env.10/lib/python3.10/site-packages/pandas/io/sql.py", line 844, in to_sql
+    return pandas_sql.to_sql(
+  File "/home/wal/airflowDev/air-env.10/lib/python3.10/site-packages/pandas/io/sql.py", line 2840, in to_sql
+    table.create()
+  File "/home/wal/airflowDev/air-env.10/lib/python3.10/site-packages/pandas/io/sql.py", line 986, in create
+    if self.exists():
+  File "/home/wal/airflowDev/air-env.10/lib/python3.10/site-packages/pandas/io/sql.py", line 972, in exists
+    return self.pd_sql.has_table(self.name, self.schema)
+  File "/home/wal/airflowDev/air-env.10/lib/python3.10/site-packages/pandas/io/sql.py", line 2855, in has_table
+    return len(self.execute(query, [name]).fetchall()) > 0
+  File "/home/wal/airflowDev/air-env.10/lib/python3.10/site-packages/pandas/io/sql.py", line 2662, in execute
+    cur = self.con.cursor()
+AttributeError: 'Engine' object has no attribute 'cursor'
+[2025-07-17T21:14:43.516+0300] {taskinstance.py:1205} INFO - Marking task as UP_FOR_RETRY. dag_id=save_weather, task_id=save_weather, execution_date=20250717T181438, start_date=20250717T181442, end_date=20250717T181443
+[2025-07-17T21:14:43.530+0300] {standard_task_runner.py:110} ERROR - Failed to execute job 15 for task save_weather ('Engine' object has no attribute 'cursor'; 93387)
+[2025-07-17T21:14:43.561+0300] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2025-07-17T21:14:43.573+0300] {taskinstance.py:3482} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-07-17T21:14:43.574+0300] {local_task_job_runner.py:222} INFO - ::endgroup::

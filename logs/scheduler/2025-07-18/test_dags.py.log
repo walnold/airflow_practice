@@ -1,0 +1,35 @@
+[2025-07-18T05:58:20.468+0300] {processor.py:161} INFO - Started process (PID=106691) to work on /home/wal/airflow/dags/test_dags.py
+[2025-07-18T05:58:20.472+0300] {processor.py:830} INFO - Processing file /home/wal/airflow/dags/test_dags.py for tasks to queue
+[2025-07-18T05:58:20.482+0300] {logging_mixin.py:188} INFO - [2025-07-18T05:58:20.481+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/wal/airflow/dags/test_dags.py
+[2025-07-18T05:58:20.593+0300] {processor.py:840} INFO - DAG(s) 'printer_code' retrieved from /home/wal/airflow/dags/test_dags.py
+[2025-07-18T05:58:24.877+0300] {logging_mixin.py:188} INFO - [2025-07-18T05:58:24.876+0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-18T05:58:25.576+0300] {logging_mixin.py:188} INFO - [2025-07-18T05:58:25.576+0300] {dag.py:3954} INFO - Setting next_dagrun for printer_code to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-18T05:58:28.965+0300] {processor.py:183} INFO - Processing /home/wal/airflow/dags/test_dags.py took 8.560 seconds
+[2025-07-18T05:59:00.909+0300] {processor.py:161} INFO - Started process (PID=106768) to work on /home/wal/airflow/dags/test_dags.py
+[2025-07-18T05:59:00.912+0300] {processor.py:830} INFO - Processing file /home/wal/airflow/dags/test_dags.py for tasks to queue
+[2025-07-18T05:59:00.916+0300] {logging_mixin.py:188} INFO - [2025-07-18T05:59:00.915+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/wal/airflow/dags/test_dags.py
+[2025-07-18T05:59:00.947+0300] {processor.py:840} INFO - DAG(s) 'printer_code' retrieved from /home/wal/airflow/dags/test_dags.py
+[2025-07-18T05:59:04.772+0300] {logging_mixin.py:188} INFO - [2025-07-18T05:59:04.772+0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-18T05:59:05.438+0300] {logging_mixin.py:188} INFO - [2025-07-18T05:59:05.437+0300] {dag.py:3954} INFO - Setting next_dagrun for printer_code to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-18T05:59:08.818+0300] {processor.py:183} INFO - Processing /home/wal/airflow/dags/test_dags.py took 7.929 seconds
+[2025-07-18T05:59:39.552+0300] {processor.py:161} INFO - Started process (PID=106844) to work on /home/wal/airflow/dags/test_dags.py
+[2025-07-18T05:59:39.570+0300] {processor.py:830} INFO - Processing file /home/wal/airflow/dags/test_dags.py for tasks to queue
+[2025-07-18T05:59:39.576+0300] {logging_mixin.py:188} INFO - [2025-07-18T05:59:39.575+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/wal/airflow/dags/test_dags.py
+[2025-07-18T05:59:39.608+0300] {processor.py:840} INFO - DAG(s) 'printer_code' retrieved from /home/wal/airflow/dags/test_dags.py
+[2025-07-18T05:59:43.226+0300] {logging_mixin.py:188} INFO - [2025-07-18T05:59:43.225+0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-18T05:59:43.874+0300] {logging_mixin.py:188} INFO - [2025-07-18T05:59:43.873+0300] {dag.py:3954} INFO - Setting next_dagrun for printer_code to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-18T05:59:47.632+0300] {processor.py:183} INFO - Processing /home/wal/airflow/dags/test_dags.py took 8.095 seconds
+[2025-07-18T06:00:18.461+0300] {processor.py:161} INFO - Started process (PID=107037) to work on /home/wal/airflow/dags/test_dags.py
+[2025-07-18T06:00:18.480+0300] {processor.py:830} INFO - Processing file /home/wal/airflow/dags/test_dags.py for tasks to queue
+[2025-07-18T06:00:18.489+0300] {logging_mixin.py:188} INFO - [2025-07-18T06:00:18.488+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/wal/airflow/dags/test_dags.py
+[2025-07-18T06:00:18.567+0300] {processor.py:840} INFO - DAG(s) 'printer_code' retrieved from /home/wal/airflow/dags/test_dags.py
+[2025-07-18T06:00:22.337+0300] {logging_mixin.py:188} INFO - [2025-07-18T06:00:22.337+0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-18T06:00:23.100+0300] {logging_mixin.py:188} INFO - [2025-07-18T06:00:23.099+0300] {dag.py:3954} INFO - Setting next_dagrun for printer_code to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-18T06:00:27.098+0300] {processor.py:183} INFO - Processing /home/wal/airflow/dags/test_dags.py took 8.034 seconds
+[2025-07-18T06:00:57.805+0300] {processor.py:161} INFO - Started process (PID=107110) to work on /home/wal/airflow/dags/test_dags.py
+[2025-07-18T06:00:57.815+0300] {processor.py:830} INFO - Processing file /home/wal/airflow/dags/test_dags.py for tasks to queue
+[2025-07-18T06:00:57.821+0300] {logging_mixin.py:188} INFO - [2025-07-18T06:00:57.821+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/wal/airflow/dags/test_dags.py
+[2025-07-18T06:00:57.842+0300] {processor.py:840} INFO - DAG(s) 'printer_code' retrieved from /home/wal/airflow/dags/test_dags.py
+[2025-07-18T06:01:02.277+0300] {logging_mixin.py:188} INFO - [2025-07-18T06:01:02.277+0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-18T06:01:02.891+0300] {logging_mixin.py:188} INFO - [2025-07-18T06:01:02.890+0300] {dag.py:3954} INFO - Setting next_dagrun for printer_code to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-18T06:01:06.191+0300] {processor.py:183} INFO - Processing /home/wal/airflow/dags/test_dags.py took 7.838 seconds

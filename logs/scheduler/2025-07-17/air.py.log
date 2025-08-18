@@ -1,0 +1,484 @@
+[2025-07-17T21:03:46.868+0300] {processor.py:161} INFO - Started process (PID=90687) to work on /home/wal/airflow/dags/air.py
+[2025-07-17T21:03:46.869+0300] {processor.py:830} INFO - Processing file /home/wal/airflow/dags/air.py for tasks to queue
+[2025-07-17T21:03:46.871+0300] {logging_mixin.py:188} INFO - [2025-07-17T21:03:46.871+0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/wal/airflow/dags/air.py
+[2025-07-17T21:03:46.879+0300] {logging_mixin.py:188} INFO - [2025-07-17T21:03:46.876+0300] {dagbag.py:355} ERROR - Failed to import: /home/wal/airflow/dags/air.py
+Traceback (most recent call last):
+  File "/home/wal/.pyenv/versions/3.12.0/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/wal/airflow/dags/air.py", line 5, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2025-07-17T21:03:46.880+0300] {processor.py:842} WARNING - No viable dags retrieved from /home/wal/airflow/dags/air.py
+[2025-07-17T21:03:46.909+0300] {processor.py:183} INFO - Processing /home/wal/airflow/dags/air.py took 0.048 seconds
+[2025-07-17T21:04:17.886+0300] {processor.py:161} INFO - Started process (PID=91430) to work on /home/wal/airflow/dags/air.py
+[2025-07-17T21:04:17.889+0300] {processor.py:830} INFO - Processing file /home/wal/airflow/dags/air.py for tasks to queue
+[2025-07-17T21:04:17.891+0300] {logging_mixin.py:188} INFO - [2025-07-17T21:04:17.891+0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/wal/airflow/dags/air.py
+[2025-07-17T21:04:17.898+0300] {logging_mixin.py:188} INFO - [2025-07-17T21:04:17.896+0300] {dagbag.py:355} ERROR - Failed to import: /home/wal/airflow/dags/air.py
+Traceback (most recent call last):
+  File "/home/wal/.pyenv/versions/3.12.0/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/wal/airflow/dags/air.py", line 5, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2025-07-17T21:04:17.899+0300] {processor.py:842} WARNING - No viable dags retrieved from /home/wal/airflow/dags/air.py
+[2025-07-17T21:04:17.927+0300] {processor.py:183} INFO - Processing /home/wal/airflow/dags/air.py took 0.053 seconds
+[2025-07-17T21:04:48.496+0300] {processor.py:161} INFO - Started process (PID=91532) to work on /home/wal/airflow/dags/air.py
+[2025-07-17T21:04:48.498+0300] {processor.py:830} INFO - Processing file /home/wal/airflow/dags/air.py for tasks to queue
+[2025-07-17T21:04:48.500+0300] {logging_mixin.py:188} INFO - [2025-07-17T21:04:48.499+0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/wal/airflow/dags/air.py
+[2025-07-17T21:04:48.504+0300] {logging_mixin.py:188} INFO - [2025-07-17T21:04:48.503+0300] {dagbag.py:355} ERROR - Failed to import: /home/wal/airflow/dags/air.py
+Traceback (most recent call last):
+  File "/home/wal/.pyenv/versions/3.12.0/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/wal/airflow/dags/air.py", line 5, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2025-07-17T21:04:48.505+0300] {processor.py:842} WARNING - No viable dags retrieved from /home/wal/airflow/dags/air.py
+[2025-07-17T21:04:48.531+0300] {processor.py:183} INFO - Processing /home/wal/airflow/dags/air.py took 0.044 seconds
+[2025-07-17T21:13:08.105+0300] {processor.py:161} INFO - Started process (PID=92972) to work on /home/wal/airflow/dags/air.py
+[2025-07-17T21:13:08.107+0300] {processor.py:830} INFO - Processing file /home/wal/airflow/dags/air.py for tasks to queue
+[2025-07-17T21:13:08.110+0300] {logging_mixin.py:188} INFO - [2025-07-17T21:13:08.109+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/wal/airflow/dags/air.py
+[2025-07-17T21:13:09.072+0300] {processor.py:840} INFO - DAG(s) 'save_weather' retrieved from /home/wal/airflow/dags/air.py
+[2025-07-17T21:13:09.258+0300] {logging_mixin.py:188} INFO - [2025-07-17T21:13:09.257+0300] {override.py:1930} INFO - Created Permission View: can edit on DAG:save_weather
+[2025-07-17T21:13:09.273+0300] {logging_mixin.py:188} INFO - [2025-07-17T21:13:09.272+0300] {override.py:1930} INFO - Created Permission View: can read on DAG:save_weather
+[2025-07-17T21:13:09.286+0300] {logging_mixin.py:188} INFO - [2025-07-17T21:13:09.285+0300] {override.py:1930} INFO - Created Permission View: can delete on DAG:save_weather
+[2025-07-17T21:13:09.286+0300] {logging_mixin.py:188} INFO - [2025-07-17T21:13:09.286+0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-17T21:13:09.296+0300] {logging_mixin.py:188} INFO - [2025-07-17T21:13:09.295+0300] {dag.py:3118} INFO - Creating ORM DAG for save_weather
+[2025-07-17T21:13:09.308+0300] {logging_mixin.py:188} INFO - [2025-07-17T21:13:09.307+0300] {dag.py:3954} INFO - Setting next_dagrun for save_weather to 2025-07-17 17:00:00+00:00, run_after=2025-07-17 18:00:00+00:00
+[2025-07-17T21:13:09.342+0300] {processor.py:183} INFO - Processing /home/wal/airflow/dags/air.py took 1.246 seconds
+[2025-07-17T21:13:40.373+0300] {processor.py:161} INFO - Started process (PID=93092) to work on /home/wal/airflow/dags/air.py
+[2025-07-17T21:13:40.380+0300] {processor.py:830} INFO - Processing file /home/wal/airflow/dags/air.py for tasks to queue
+[2025-07-17T21:13:40.384+0300] {logging_mixin.py:188} INFO - [2025-07-17T21:13:40.383+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/wal/airflow/dags/air.py
+[2025-07-17T21:13:41.052+0300] {processor.py:840} INFO - DAG(s) 'save_weather' retrieved from /home/wal/airflow/dags/air.py
+[2025-07-17T21:13:41.080+0300] {logging_mixin.py:188} INFO - [2025-07-17T21:13:41.080+0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-17T21:13:41.107+0300] {logging_mixin.py:188} INFO - [2025-07-17T21:13:41.107+0300] {dag.py:3954} INFO - Setting next_dagrun for save_weather to 2025-07-17 17:00:00+00:00, run_after=2025-07-17 18:00:00+00:00
+[2025-07-17T21:13:41.141+0300] {processor.py:183} INFO - Processing /home/wal/airflow/dags/air.py took 0.784 seconds
+[2025-07-17T21:14:11.900+0300] {processor.py:161} INFO - Started process (PID=93182) to work on /home/wal/airflow/dags/air.py
+[2025-07-17T21:14:11.907+0300] {processor.py:830} INFO - Processing file /home/wal/airflow/dags/air.py for tasks to queue
+[2025-07-17T21:14:11.910+0300] {logging_mixin.py:188} INFO - [2025-07-17T21:14:11.910+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/wal/airflow/dags/air.py
+[2025-07-17T21:14:12.550+0300] {processor.py:840} INFO - DAG(s) 'save_weather' retrieved from /home/wal/airflow/dags/air.py
+[2025-07-17T21:14:12.584+0300] {logging_mixin.py:188} INFO - [2025-07-17T21:14:12.583+0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-17T21:14:12.609+0300] {logging_mixin.py:188} INFO - [2025-07-17T21:14:12.609+0300] {dag.py:3954} INFO - Setting next_dagrun for save_weather to 2025-07-17 17:00:00+00:00, run_after=2025-07-17 18:00:00+00:00
+[2025-07-17T21:14:12.635+0300] {processor.py:183} INFO - Processing /home/wal/airflow/dags/air.py took 0.750 seconds
+[2025-07-17T21:14:44.027+0300] {processor.py:161} INFO - Started process (PID=93388) to work on /home/wal/airflow/dags/air.py
+[2025-07-17T21:14:44.029+0300] {processor.py:830} INFO - Processing file /home/wal/airflow/dags/air.py for tasks to queue
+[2025-07-17T21:14:44.031+0300] {logging_mixin.py:188} INFO - [2025-07-17T21:14:44.031+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/wal/airflow/dags/air.py
+[2025-07-17T21:14:44.490+0300] {processor.py:840} INFO - DAG(s) 'save_weather' retrieved from /home/wal/airflow/dags/air.py
+[2025-07-17T21:14:44.507+0300] {logging_mixin.py:188} INFO - [2025-07-17T21:14:44.507+0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-17T21:14:44.526+0300] {logging_mixin.py:188} INFO - [2025-07-17T21:14:44.526+0300] {dag.py:3954} INFO - Setting next_dagrun for save_weather to 2025-07-17 18:00:00+00:00, run_after=2025-07-17 19:00:00+00:00
+[2025-07-17T21:14:44.554+0300] {processor.py:183} INFO - Processing /home/wal/airflow/dags/air.py took 0.535 seconds
+[2025-07-17T21:15:15.620+0300] {processor.py:161} INFO - Started process (PID=93519) to work on /home/wal/airflow/dags/air.py
+[2025-07-17T21:15:15.628+0300] {processor.py:830} INFO - Processing file /home/wal/airflow/dags/air.py for tasks to queue
+[2025-07-17T21:15:15.641+0300] {logging_mixin.py:188} INFO - [2025-07-17T21:15:15.637+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/wal/airflow/dags/air.py
+[2025-07-17T21:15:16.181+0300] {processor.py:840} INFO - DAG(s) 'save_weather' retrieved from /home/wal/airflow/dags/air.py
+[2025-07-17T21:15:16.203+0300] {logging_mixin.py:188} INFO - [2025-07-17T21:15:16.202+0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-17T21:15:16.235+0300] {logging_mixin.py:188} INFO - [2025-07-17T21:15:16.235+0300] {dag.py:3954} INFO - Setting next_dagrun for save_weather to 2025-07-17 18:00:00+00:00, run_after=2025-07-17 19:00:00+00:00
+[2025-07-17T21:15:16.263+0300] {processor.py:183} INFO - Processing /home/wal/airflow/dags/air.py took 0.652 seconds
+[2025-07-17T21:15:47.152+0300] {processor.py:161} INFO - Started process (PID=93675) to work on /home/wal/airflow/dags/air.py
+[2025-07-17T21:15:47.159+0300] {processor.py:830} INFO - Processing file /home/wal/airflow/dags/air.py for tasks to queue
+[2025-07-17T21:15:47.162+0300] {logging_mixin.py:188} INFO - [2025-07-17T21:15:47.162+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/wal/airflow/dags/air.py
+[2025-07-17T21:15:47.618+0300] {processor.py:840} INFO - DAG(s) 'save_weather' retrieved from /home/wal/airflow/dags/air.py
+[2025-07-17T21:15:47.635+0300] {logging_mixin.py:188} INFO - [2025-07-17T21:15:47.635+0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-17T21:15:47.651+0300] {logging_mixin.py:188} INFO - [2025-07-17T21:15:47.651+0300] {dag.py:3954} INFO - Setting next_dagrun for save_weather to 2025-07-17 18:00:00+00:00, run_after=2025-07-17 19:00:00+00:00
+[2025-07-17T21:15:47.677+0300] {processor.py:183} INFO - Processing /home/wal/airflow/dags/air.py took 0.539 seconds
+[2025-07-17T21:16:18.636+0300] {processor.py:161} INFO - Started process (PID=93771) to work on /home/wal/airflow/dags/air.py
+[2025-07-17T21:16:18.637+0300] {processor.py:830} INFO - Processing file /home/wal/airflow/dags/air.py for tasks to queue
+[2025-07-17T21:16:18.639+0300] {logging_mixin.py:188} INFO - [2025-07-17T21:16:18.639+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/wal/airflow/dags/air.py
+[2025-07-17T21:16:19.086+0300] {processor.py:840} INFO - DAG(s) 'save_weather' retrieved from /home/wal/airflow/dags/air.py
+[2025-07-17T21:16:19.102+0300] {logging_mixin.py:188} INFO - [2025-07-17T21:16:19.101+0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-17T21:16:19.118+0300] {logging_mixin.py:188} INFO - [2025-07-17T21:16:19.117+0300] {dag.py:3954} INFO - Setting next_dagrun for save_weather to 2025-07-17 18:00:00+00:00, run_after=2025-07-17 19:00:00+00:00
+[2025-07-17T21:16:19.142+0300] {processor.py:183} INFO - Processing /home/wal/airflow/dags/air.py took 0.514 seconds
+[2025-07-17T21:16:50.194+0300] {processor.py:161} INFO - Started process (PID=93869) to work on /home/wal/airflow/dags/air.py
+[2025-07-17T21:16:50.201+0300] {processor.py:830} INFO - Processing file /home/wal/airflow/dags/air.py for tasks to queue
+[2025-07-17T21:16:50.204+0300] {logging_mixin.py:188} INFO - [2025-07-17T21:16:50.203+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/wal/airflow/dags/air.py
+[2025-07-17T21:16:50.665+0300] {processor.py:840} INFO - DAG(s) 'save_weather' retrieved from /home/wal/airflow/dags/air.py
+[2025-07-17T21:16:50.681+0300] {logging_mixin.py:188} INFO - [2025-07-17T21:16:50.681+0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-17T21:16:50.698+0300] {logging_mixin.py:188} INFO - [2025-07-17T21:16:50.698+0300] {dag.py:3954} INFO - Setting next_dagrun for save_weather to 2025-07-17 18:00:00+00:00, run_after=2025-07-17 19:00:00+00:00
+[2025-07-17T21:16:50.722+0300] {processor.py:183} INFO - Processing /home/wal/airflow/dags/air.py took 0.541 seconds
+[2025-07-17T21:17:20.832+0300] {processor.py:161} INFO - Started process (PID=93972) to work on /home/wal/airflow/dags/air.py
+[2025-07-17T21:17:20.834+0300] {processor.py:830} INFO - Processing file /home/wal/airflow/dags/air.py for tasks to queue
+[2025-07-17T21:17:20.839+0300] {logging_mixin.py:188} INFO - [2025-07-17T21:17:20.838+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/wal/airflow/dags/air.py
+[2025-07-17T21:17:21.393+0300] {processor.py:840} INFO - DAG(s) 'save_weather' retrieved from /home/wal/airflow/dags/air.py
+[2025-07-17T21:17:21.417+0300] {logging_mixin.py:188} INFO - [2025-07-17T21:17:21.417+0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-17T21:17:21.458+0300] {logging_mixin.py:188} INFO - [2025-07-17T21:17:21.457+0300] {dag.py:3954} INFO - Setting next_dagrun for save_weather to 2025-07-17 18:00:00+00:00, run_after=2025-07-17 19:00:00+00:00
+[2025-07-17T21:17:21.503+0300] {processor.py:183} INFO - Processing /home/wal/airflow/dags/air.py took 0.685 seconds
+[2025-07-17T21:17:52.072+0300] {processor.py:161} INFO - Started process (PID=94204) to work on /home/wal/airflow/dags/air.py
+[2025-07-17T21:17:52.074+0300] {processor.py:830} INFO - Processing file /home/wal/airflow/dags/air.py for tasks to queue
+[2025-07-17T21:17:52.076+0300] {logging_mixin.py:188} INFO - [2025-07-17T21:17:52.076+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/wal/airflow/dags/air.py
+[2025-07-17T21:17:52.568+0300] {processor.py:840} INFO - DAG(s) 'save_weather' retrieved from /home/wal/airflow/dags/air.py
+[2025-07-17T21:17:52.589+0300] {logging_mixin.py:188} INFO - [2025-07-17T21:17:52.589+0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-17T21:17:52.608+0300] {logging_mixin.py:188} INFO - [2025-07-17T21:17:52.608+0300] {dag.py:3954} INFO - Setting next_dagrun for save_weather to 2025-07-17 18:00:00+00:00, run_after=2025-07-17 19:00:00+00:00
+[2025-07-17T21:17:52.637+0300] {processor.py:183} INFO - Processing /home/wal/airflow/dags/air.py took 0.574 seconds
+[2025-07-17T21:18:23.573+0300] {processor.py:161} INFO - Started process (PID=94363) to work on /home/wal/airflow/dags/air.py
+[2025-07-17T21:18:23.577+0300] {processor.py:830} INFO - Processing file /home/wal/airflow/dags/air.py for tasks to queue
+[2025-07-17T21:18:23.580+0300] {logging_mixin.py:188} INFO - [2025-07-17T21:18:23.579+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/wal/airflow/dags/air.py
+[2025-07-17T21:18:24.084+0300] {processor.py:840} INFO - DAG(s) 'save_weather' retrieved from /home/wal/airflow/dags/air.py
+[2025-07-17T21:18:24.102+0300] {logging_mixin.py:188} INFO - [2025-07-17T21:18:24.102+0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-17T21:18:24.129+0300] {logging_mixin.py:188} INFO - [2025-07-17T21:18:24.128+0300] {dag.py:3954} INFO - Setting next_dagrun for save_weather to 2025-07-17 18:00:00+00:00, run_after=2025-07-17 19:00:00+00:00
+[2025-07-17T21:18:24.209+0300] {processor.py:183} INFO - Processing /home/wal/airflow/dags/air.py took 0.649 seconds
+[2025-07-17T21:18:50.074+0300] {processor.py:161} INFO - Started process (PID=94446) to work on /home/wal/airflow/dags/air.py
+[2025-07-17T21:18:50.077+0300] {processor.py:830} INFO - Processing file /home/wal/airflow/dags/air.py for tasks to queue
+[2025-07-17T21:18:50.081+0300] {logging_mixin.py:188} INFO - [2025-07-17T21:18:50.080+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/wal/airflow/dags/air.py
+[2025-07-17T21:18:50.684+0300] {processor.py:840} INFO - DAG(s) 'save_weather' retrieved from /home/wal/airflow/dags/air.py
+[2025-07-17T21:18:50.703+0300] {logging_mixin.py:188} INFO - [2025-07-17T21:18:50.702+0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-17T21:18:50.726+0300] {logging_mixin.py:188} INFO - [2025-07-17T21:18:50.725+0300] {dag.py:3954} INFO - Setting next_dagrun for save_weather to 2025-07-17 18:00:00+00:00, run_after=2025-07-17 19:00:00+00:00
+[2025-07-17T21:18:50.763+0300] {processor.py:183} INFO - Processing /home/wal/airflow/dags/air.py took 0.706 seconds
+[2025-07-17T21:18:53.000+0300] {processor.py:161} INFO - Started process (PID=94466) to work on /home/wal/airflow/dags/air.py
+[2025-07-17T21:18:53.007+0300] {processor.py:830} INFO - Processing file /home/wal/airflow/dags/air.py for tasks to queue
+[2025-07-17T21:18:53.012+0300] {logging_mixin.py:188} INFO - [2025-07-17T21:18:53.011+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/wal/airflow/dags/air.py
+[2025-07-17T21:18:53.543+0300] {processor.py:840} INFO - DAG(s) 'save_weather' retrieved from /home/wal/airflow/dags/air.py
+[2025-07-17T21:18:53.558+0300] {logging_mixin.py:188} INFO - [2025-07-17T21:18:53.558+0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-17T21:18:53.577+0300] {logging_mixin.py:188} INFO - [2025-07-17T21:18:53.576+0300] {dag.py:3954} INFO - Setting next_dagrun for save_weather to 2025-07-17 18:00:00+00:00, run_after=2025-07-17 19:00:00+00:00
+[2025-07-17T21:18:53.599+0300] {processor.py:183} INFO - Processing /home/wal/airflow/dags/air.py took 0.615 seconds
+[2025-07-17T21:19:30.210+0300] {processor.py:161} INFO - Started process (PID=94653) to work on /home/wal/airflow/dags/air.py
+[2025-07-17T21:19:30.212+0300] {processor.py:830} INFO - Processing file /home/wal/airflow/dags/air.py for tasks to queue
+[2025-07-17T21:19:30.216+0300] {logging_mixin.py:188} INFO - [2025-07-17T21:19:30.215+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/wal/airflow/dags/air.py
+[2025-07-17T21:19:30.742+0300] {processor.py:840} INFO - DAG(s) 'save_weather' retrieved from /home/wal/airflow/dags/air.py
+[2025-07-17T21:19:30.760+0300] {logging_mixin.py:188} INFO - [2025-07-17T21:19:30.759+0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-17T21:19:30.785+0300] {logging_mixin.py:188} INFO - [2025-07-17T21:19:30.785+0300] {dag.py:3954} INFO - Setting next_dagrun for save_weather to 2025-07-17 18:00:00+00:00, run_after=2025-07-17 19:00:00+00:00
+[2025-07-17T21:19:30.810+0300] {processor.py:183} INFO - Processing /home/wal/airflow/dags/air.py took 0.609 seconds
+[2025-07-17T21:20:01.666+0300] {processor.py:161} INFO - Started process (PID=94776) to work on /home/wal/airflow/dags/air.py
+[2025-07-17T21:20:01.670+0300] {processor.py:830} INFO - Processing file /home/wal/airflow/dags/air.py for tasks to queue
+[2025-07-17T21:20:01.676+0300] {logging_mixin.py:188} INFO - [2025-07-17T21:20:01.675+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/wal/airflow/dags/air.py
+[2025-07-17T21:20:02.410+0300] {processor.py:840} INFO - DAG(s) 'save_weather' retrieved from /home/wal/airflow/dags/air.py
+[2025-07-17T21:20:02.443+0300] {logging_mixin.py:188} INFO - [2025-07-17T21:20:02.443+0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-17T21:20:02.476+0300] {logging_mixin.py:188} INFO - [2025-07-17T21:20:02.476+0300] {dag.py:3954} INFO - Setting next_dagrun for save_weather to 2025-07-17 18:00:00+00:00, run_after=2025-07-17 19:00:00+00:00
+[2025-07-17T21:20:02.518+0300] {processor.py:183} INFO - Processing /home/wal/airflow/dags/air.py took 0.867 seconds
+[2025-07-17T21:20:33.292+0300] {processor.py:161} INFO - Started process (PID=94878) to work on /home/wal/airflow/dags/air.py
+[2025-07-17T21:20:33.298+0300] {processor.py:830} INFO - Processing file /home/wal/airflow/dags/air.py for tasks to queue
+[2025-07-17T21:20:33.301+0300] {logging_mixin.py:188} INFO - [2025-07-17T21:20:33.300+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/wal/airflow/dags/air.py
+[2025-07-17T21:20:33.964+0300] {processor.py:840} INFO - DAG(s) 'save_weather' retrieved from /home/wal/airflow/dags/air.py
+[2025-07-17T21:20:33.983+0300] {logging_mixin.py:188} INFO - [2025-07-17T21:20:33.983+0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-17T21:20:34.005+0300] {logging_mixin.py:188} INFO - [2025-07-17T21:20:34.004+0300] {dag.py:3954} INFO - Setting next_dagrun for save_weather to 2025-07-17 18:00:00+00:00, run_after=2025-07-17 19:00:00+00:00
+[2025-07-17T21:20:34.029+0300] {processor.py:183} INFO - Processing /home/wal/airflow/dags/air.py took 0.747 seconds
+[2025-07-17T21:21:31.816+0300] {processor.py:161} INFO - Started process (PID=95560) to work on /home/wal/airflow/dags/air.py
+[2025-07-17T21:21:31.822+0300] {processor.py:830} INFO - Processing file /home/wal/airflow/dags/air.py for tasks to queue
+[2025-07-17T21:21:31.825+0300] {logging_mixin.py:188} INFO - [2025-07-17T21:21:31.825+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/wal/airflow/dags/air.py
+[2025-07-17T21:21:32.343+0300] {processor.py:840} INFO - DAG(s) 'save_weather' retrieved from /home/wal/airflow/dags/air.py
+[2025-07-17T21:21:39.102+0300] {logging_mixin.py:188} INFO - [2025-07-17T21:21:39.101+0300] {override.py:1930} INFO - Created Permission View: can delete on DAG:save_weather
+[2025-07-17T21:21:40.917+0300] {logging_mixin.py:188} INFO - [2025-07-17T21:21:40.916+0300] {override.py:1930} INFO - Created Permission View: can edit on DAG:save_weather
+[2025-07-17T21:21:43.174+0300] {logging_mixin.py:188} INFO - [2025-07-17T21:21:43.174+0300] {override.py:1930} INFO - Created Permission View: can read on DAG:save_weather
+[2025-07-17T21:21:43.175+0300] {logging_mixin.py:188} INFO - [2025-07-17T21:21:43.174+0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-17T21:21:43.816+0300] {logging_mixin.py:188} INFO - [2025-07-17T21:21:43.815+0300] {dag.py:3118} INFO - Creating ORM DAG for save_weather
+[2025-07-17T21:21:44.246+0300] {logging_mixin.py:188} INFO - [2025-07-17T21:21:44.245+0300] {dag.py:3954} INFO - Setting next_dagrun for save_weather to 2025-07-17 17:00:00+00:00, run_after=2025-07-17 18:00:00+00:00
+[2025-07-17T21:21:48.944+0300] {processor.py:183} INFO - Processing /home/wal/airflow/dags/air.py took 17.141 seconds
+[2025-07-17T21:22:20.066+0300] {processor.py:161} INFO - Started process (PID=95690) to work on /home/wal/airflow/dags/air.py
+[2025-07-17T21:22:20.072+0300] {processor.py:830} INFO - Processing file /home/wal/airflow/dags/air.py for tasks to queue
+[2025-07-17T21:22:20.075+0300] {logging_mixin.py:188} INFO - [2025-07-17T21:22:20.075+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/wal/airflow/dags/air.py
+[2025-07-17T21:22:20.566+0300] {processor.py:840} INFO - DAG(s) 'save_weather' retrieved from /home/wal/airflow/dags/air.py
+[2025-07-17T21:22:24.263+0300] {logging_mixin.py:188} INFO - [2025-07-17T21:22:24.263+0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-17T21:22:24.904+0300] {logging_mixin.py:188} INFO - [2025-07-17T21:22:24.903+0300] {dag.py:3954} INFO - Setting next_dagrun for save_weather to 2025-07-17 17:00:00+00:00, run_after=2025-07-17 18:00:00+00:00
+[2025-07-17T21:22:28.343+0300] {processor.py:183} INFO - Processing /home/wal/airflow/dags/air.py took 8.288 seconds
+[2025-07-17T21:22:59.590+0300] {processor.py:161} INFO - Started process (PID=95797) to work on /home/wal/airflow/dags/air.py
+[2025-07-17T21:22:59.596+0300] {processor.py:830} INFO - Processing file /home/wal/airflow/dags/air.py for tasks to queue
+[2025-07-17T21:22:59.599+0300] {logging_mixin.py:188} INFO - [2025-07-17T21:22:59.599+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/wal/airflow/dags/air.py
+[2025-07-17T21:23:00.248+0300] {processor.py:840} INFO - DAG(s) 'save_weather' retrieved from /home/wal/airflow/dags/air.py
+[2025-07-17T21:23:03.907+0300] {logging_mixin.py:188} INFO - [2025-07-17T21:23:03.906+0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-17T21:23:04.534+0300] {logging_mixin.py:188} INFO - [2025-07-17T21:23:04.534+0300] {dag.py:3954} INFO - Setting next_dagrun for save_weather to 2025-07-17 17:00:00+00:00, run_after=2025-07-17 18:00:00+00:00
+[2025-07-17T21:23:08.763+0300] {processor.py:183} INFO - Processing /home/wal/airflow/dags/air.py took 9.181 seconds
+[2025-07-17T21:23:39.091+0300] {processor.py:161} INFO - Started process (PID=95908) to work on /home/wal/airflow/dags/air.py
+[2025-07-17T21:23:39.094+0300] {processor.py:830} INFO - Processing file /home/wal/airflow/dags/air.py for tasks to queue
+[2025-07-17T21:23:39.096+0300] {logging_mixin.py:188} INFO - [2025-07-17T21:23:39.096+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/wal/airflow/dags/air.py
+[2025-07-17T21:23:39.609+0300] {processor.py:840} INFO - DAG(s) 'save_weather' retrieved from /home/wal/airflow/dags/air.py
+[2025-07-17T21:23:43.280+0300] {logging_mixin.py:188} INFO - [2025-07-17T21:23:43.278+0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-17T21:23:43.908+0300] {logging_mixin.py:188} INFO - [2025-07-17T21:23:43.908+0300] {dag.py:3954} INFO - Setting next_dagrun for save_weather to 2025-07-17 17:00:00+00:00, run_after=2025-07-17 18:00:00+00:00
+[2025-07-17T21:23:47.335+0300] {processor.py:183} INFO - Processing /home/wal/airflow/dags/air.py took 8.253 seconds
+[2025-07-17T22:18:56.684+0300] {processor.py:161} INFO - Started process (PID=102745) to work on /home/wal/airflow/dags/air.py
+[2025-07-17T22:18:56.687+0300] {processor.py:830} INFO - Processing file /home/wal/airflow/dags/air.py for tasks to queue
+[2025-07-17T22:18:56.690+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:18:56.689+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/wal/airflow/dags/air.py
+[2025-07-17T22:18:57.447+0300] {processor.py:840} INFO - DAG(s) 'save_weather' retrieved from /home/wal/airflow/dags/air.py
+[2025-07-17T22:19:03.895+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:19:03.894+0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-17T22:19:04.530+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:19:04.529+0300] {dag.py:3954} INFO - Setting next_dagrun for save_weather to 2025-07-17 18:00:00+00:00, run_after=2025-07-17 19:00:00+00:00
+[2025-07-17T22:19:08.129+0300] {processor.py:183} INFO - Processing /home/wal/airflow/dags/air.py took 11.469 seconds
+[2025-07-17T22:19:38.502+0300] {processor.py:161} INFO - Started process (PID=102853) to work on /home/wal/airflow/dags/air.py
+[2025-07-17T22:19:38.508+0300] {processor.py:830} INFO - Processing file /home/wal/airflow/dags/air.py for tasks to queue
+[2025-07-17T22:19:38.510+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:19:38.510+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/wal/airflow/dags/air.py
+[2025-07-17T22:19:39.120+0300] {processor.py:840} INFO - DAG(s) 'save_weather' retrieved from /home/wal/airflow/dags/air.py
+[2025-07-17T22:19:43.653+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:19:43.653+0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-17T22:19:44.266+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:19:44.266+0300] {dag.py:3954} INFO - Setting next_dagrun for save_weather to 2025-07-17 18:00:00+00:00, run_after=2025-07-17 19:00:00+00:00
+[2025-07-17T22:19:48.088+0300] {processor.py:183} INFO - Processing /home/wal/airflow/dags/air.py took 9.601 seconds
+[2025-07-17T22:20:19.291+0300] {processor.py:161} INFO - Started process (PID=102956) to work on /home/wal/airflow/dags/air.py
+[2025-07-17T22:20:19.293+0300] {processor.py:830} INFO - Processing file /home/wal/airflow/dags/air.py for tasks to queue
+[2025-07-17T22:20:19.298+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:20:19.297+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/wal/airflow/dags/air.py
+[2025-07-17T22:20:20.071+0300] {processor.py:840} INFO - DAG(s) 'save_weather' retrieved from /home/wal/airflow/dags/air.py
+[2025-07-17T22:20:23.763+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:20:23.761+0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-17T22:20:24.414+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:20:24.414+0300] {dag.py:3954} INFO - Setting next_dagrun for save_weather to 2025-07-17 18:00:00+00:00, run_after=2025-07-17 19:00:00+00:00
+[2025-07-17T22:20:27.810+0300] {processor.py:183} INFO - Processing /home/wal/airflow/dags/air.py took 8.538 seconds
+[2025-07-17T22:20:58.490+0300] {processor.py:161} INFO - Started process (PID=103057) to work on /home/wal/airflow/dags/air.py
+[2025-07-17T22:20:58.496+0300] {processor.py:830} INFO - Processing file /home/wal/airflow/dags/air.py for tasks to queue
+[2025-07-17T22:20:58.501+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:20:58.500+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/wal/airflow/dags/air.py
+[2025-07-17T22:20:59.078+0300] {processor.py:840} INFO - DAG(s) 'save_weather' retrieved from /home/wal/airflow/dags/air.py
+[2025-07-17T22:21:02.703+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:21:02.702+0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-17T22:21:03.343+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:21:03.342+0300] {dag.py:3954} INFO - Setting next_dagrun for save_weather to 2025-07-17 18:00:00+00:00, run_after=2025-07-17 19:00:00+00:00
+[2025-07-17T22:21:06.750+0300] {processor.py:183} INFO - Processing /home/wal/airflow/dags/air.py took 8.274 seconds
+[2025-07-17T22:21:37.448+0300] {processor.py:161} INFO - Started process (PID=103159) to work on /home/wal/airflow/dags/air.py
+[2025-07-17T22:21:37.454+0300] {processor.py:830} INFO - Processing file /home/wal/airflow/dags/air.py for tasks to queue
+[2025-07-17T22:21:37.457+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:21:37.456+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/wal/airflow/dags/air.py
+[2025-07-17T22:21:38.167+0300] {processor.py:840} INFO - DAG(s) 'save_weather' retrieved from /home/wal/airflow/dags/air.py
+[2025-07-17T22:21:42.379+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:21:42.378+0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-17T22:21:43.406+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:21:43.406+0300] {dag.py:3954} INFO - Setting next_dagrun for save_weather to 2025-07-17 18:00:00+00:00, run_after=2025-07-17 19:00:00+00:00
+[2025-07-17T22:21:46.793+0300] {processor.py:183} INFO - Processing /home/wal/airflow/dags/air.py took 9.361 seconds
+[2025-07-17T22:22:16.976+0300] {processor.py:161} INFO - Started process (PID=103255) to work on /home/wal/airflow/dags/air.py
+[2025-07-17T22:22:16.978+0300] {processor.py:830} INFO - Processing file /home/wal/airflow/dags/air.py for tasks to queue
+[2025-07-17T22:22:16.981+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:22:16.981+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/wal/airflow/dags/air.py
+[2025-07-17T22:22:17.539+0300] {processor.py:840} INFO - DAG(s) 'save_weather' retrieved from /home/wal/airflow/dags/air.py
+[2025-07-17T22:22:21.147+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:22:21.146+0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-17T22:22:21.771+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:22:21.770+0300] {dag.py:3954} INFO - Setting next_dagrun for save_weather to 2025-07-17 18:00:00+00:00, run_after=2025-07-17 19:00:00+00:00
+[2025-07-17T22:22:25.144+0300] {processor.py:183} INFO - Processing /home/wal/airflow/dags/air.py took 8.182 seconds
+[2025-07-17T22:22:56.088+0300] {processor.py:161} INFO - Started process (PID=103356) to work on /home/wal/airflow/dags/air.py
+[2025-07-17T22:22:56.091+0300] {processor.py:830} INFO - Processing file /home/wal/airflow/dags/air.py for tasks to queue
+[2025-07-17T22:22:56.097+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:22:56.096+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/wal/airflow/dags/air.py
+[2025-07-17T22:22:57.201+0300] {processor.py:840} INFO - DAG(s) 'save_weather' retrieved from /home/wal/airflow/dags/air.py
+[2025-07-17T22:23:01.240+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:23:01.239+0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-17T22:23:01.858+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:23:01.858+0300] {dag.py:3954} INFO - Setting next_dagrun for save_weather to 2025-07-17 18:00:00+00:00, run_after=2025-07-17 19:00:00+00:00
+[2025-07-17T22:23:05.215+0300] {processor.py:183} INFO - Processing /home/wal/airflow/dags/air.py took 9.154 seconds
+[2025-07-17T22:23:36.116+0300] {processor.py:161} INFO - Started process (PID=103461) to work on /home/wal/airflow/dags/air.py
+[2025-07-17T22:23:36.118+0300] {processor.py:830} INFO - Processing file /home/wal/airflow/dags/air.py for tasks to queue
+[2025-07-17T22:23:36.124+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:23:36.123+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/wal/airflow/dags/air.py
+[2025-07-17T22:23:37.803+0300] {processor.py:840} INFO - DAG(s) 'save_weather' retrieved from /home/wal/airflow/dags/air.py
+[2025-07-17T22:23:41.355+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:23:41.354+0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-17T22:23:41.980+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:23:41.980+0300] {dag.py:3954} INFO - Setting next_dagrun for save_weather to 2025-07-17 18:00:00+00:00, run_after=2025-07-17 19:00:00+00:00
+[2025-07-17T22:23:45.729+0300] {processor.py:183} INFO - Processing /home/wal/airflow/dags/air.py took 9.634 seconds
+[2025-07-17T22:24:17.496+0300] {processor.py:161} INFO - Started process (PID=103562) to work on /home/wal/airflow/dags/air.py
+[2025-07-17T22:24:17.503+0300] {processor.py:830} INFO - Processing file /home/wal/airflow/dags/air.py for tasks to queue
+[2025-07-17T22:24:17.515+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:24:17.514+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/wal/airflow/dags/air.py
+[2025-07-17T22:24:18.358+0300] {processor.py:840} INFO - DAG(s) 'save_weather' retrieved from /home/wal/airflow/dags/air.py
+[2025-07-17T22:24:22.070+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:24:22.070+0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-17T22:24:23.380+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:24:23.380+0300] {dag.py:3954} INFO - Setting next_dagrun for save_weather to 2025-07-17 18:00:00+00:00, run_after=2025-07-17 19:00:00+00:00
+[2025-07-17T22:24:27.544+0300] {processor.py:183} INFO - Processing /home/wal/airflow/dags/air.py took 10.073 seconds
+[2025-07-17T22:24:59.119+0300] {processor.py:161} INFO - Started process (PID=103666) to work on /home/wal/airflow/dags/air.py
+[2025-07-17T22:24:59.121+0300] {processor.py:830} INFO - Processing file /home/wal/airflow/dags/air.py for tasks to queue
+[2025-07-17T22:24:59.124+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:24:59.124+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/wal/airflow/dags/air.py
+[2025-07-17T22:24:59.726+0300] {processor.py:840} INFO - DAG(s) 'save_weather' retrieved from /home/wal/airflow/dags/air.py
+[2025-07-17T22:25:04.836+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:25:04.835+0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-17T22:25:05.477+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:25:05.477+0300] {dag.py:3954} INFO - Setting next_dagrun for save_weather to 2025-07-17 18:00:00+00:00, run_after=2025-07-17 19:00:00+00:00
+[2025-07-17T22:25:09.493+0300] {processor.py:183} INFO - Processing /home/wal/airflow/dags/air.py took 10.387 seconds
+[2025-07-17T22:25:41.470+0300] {processor.py:161} INFO - Started process (PID=103771) to work on /home/wal/airflow/dags/air.py
+[2025-07-17T22:25:41.477+0300] {processor.py:830} INFO - Processing file /home/wal/airflow/dags/air.py for tasks to queue
+[2025-07-17T22:25:41.480+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:25:41.479+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/wal/airflow/dags/air.py
+[2025-07-17T22:25:42.037+0300] {processor.py:840} INFO - DAG(s) 'save_weather' retrieved from /home/wal/airflow/dags/air.py
+[2025-07-17T22:25:46.846+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:25:46.845+0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-17T22:25:47.503+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:25:47.502+0300] {dag.py:3954} INFO - Setting next_dagrun for save_weather to 2025-07-17 18:00:00+00:00, run_after=2025-07-17 19:00:00+00:00
+[2025-07-17T22:25:51.263+0300] {processor.py:183} INFO - Processing /home/wal/airflow/dags/air.py took 9.801 seconds
+[2025-07-17T22:26:22.616+0300] {processor.py:161} INFO - Started process (PID=103875) to work on /home/wal/airflow/dags/air.py
+[2025-07-17T22:26:22.635+0300] {processor.py:830} INFO - Processing file /home/wal/airflow/dags/air.py for tasks to queue
+[2025-07-17T22:26:22.644+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:26:22.642+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/wal/airflow/dags/air.py
+[2025-07-17T22:26:24.044+0300] {processor.py:840} INFO - DAG(s) 'save_weather' retrieved from /home/wal/airflow/dags/air.py
+[2025-07-17T22:26:27.765+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:26:27.764+0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-17T22:26:28.892+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:26:28.890+0300] {dag.py:3954} INFO - Setting next_dagrun for save_weather to 2025-07-17 18:00:00+00:00, run_after=2025-07-17 19:00:00+00:00
+[2025-07-17T22:26:32.346+0300] {processor.py:183} INFO - Processing /home/wal/airflow/dags/air.py took 9.779 seconds
+[2025-07-17T22:27:02.773+0300] {processor.py:161} INFO - Started process (PID=103966) to work on /home/wal/airflow/dags/air.py
+[2025-07-17T22:27:02.777+0300] {processor.py:830} INFO - Processing file /home/wal/airflow/dags/air.py for tasks to queue
+[2025-07-17T22:27:02.783+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:27:02.782+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/wal/airflow/dags/air.py
+[2025-07-17T22:27:03.744+0300] {processor.py:840} INFO - DAG(s) 'save_weather' retrieved from /home/wal/airflow/dags/air.py
+[2025-07-17T22:27:07.478+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:27:07.476+0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-17T22:27:09.226+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:27:09.225+0300] {dag.py:3954} INFO - Setting next_dagrun for save_weather to 2025-07-17 18:00:00+00:00, run_after=2025-07-17 19:00:00+00:00
+[2025-07-17T22:27:13.719+0300] {processor.py:183} INFO - Processing /home/wal/airflow/dags/air.py took 10.995 seconds
+[2025-07-17T22:27:44.515+0300] {processor.py:161} INFO - Started process (PID=104062) to work on /home/wal/airflow/dags/air.py
+[2025-07-17T22:27:44.533+0300] {processor.py:830} INFO - Processing file /home/wal/airflow/dags/air.py for tasks to queue
+[2025-07-17T22:27:44.542+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:27:44.541+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/wal/airflow/dags/air.py
+[2025-07-17T22:27:45.918+0300] {processor.py:840} INFO - DAG(s) 'save_weather' retrieved from /home/wal/airflow/dags/air.py
+[2025-07-17T22:27:50.351+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:27:50.350+0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-17T22:27:51.027+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:27:51.026+0300] {dag.py:3954} INFO - Setting next_dagrun for save_weather to 2025-07-17 18:00:00+00:00, run_after=2025-07-17 19:00:00+00:00
+[2025-07-17T22:27:54.465+0300] {processor.py:183} INFO - Processing /home/wal/airflow/dags/air.py took 9.994 seconds
+[2025-07-17T22:28:25.537+0300] {processor.py:161} INFO - Started process (PID=104154) to work on /home/wal/airflow/dags/air.py
+[2025-07-17T22:28:25.556+0300] {processor.py:830} INFO - Processing file /home/wal/airflow/dags/air.py for tasks to queue
+[2025-07-17T22:28:25.566+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:28:25.564+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/wal/airflow/dags/air.py
+[2025-07-17T22:28:26.468+0300] {processor.py:840} INFO - DAG(s) 'save_weather' retrieved from /home/wal/airflow/dags/air.py
+[2025-07-17T22:28:30.196+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:28:30.194+0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-17T22:28:30.872+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:28:30.871+0300] {dag.py:3954} INFO - Setting next_dagrun for save_weather to 2025-07-17 18:00:00+00:00, run_after=2025-07-17 19:00:00+00:00
+[2025-07-17T22:28:34.266+0300] {processor.py:183} INFO - Processing /home/wal/airflow/dags/air.py took 8.772 seconds
+[2025-07-17T22:29:05.013+0300] {processor.py:161} INFO - Started process (PID=104243) to work on /home/wal/airflow/dags/air.py
+[2025-07-17T22:29:05.028+0300] {processor.py:830} INFO - Processing file /home/wal/airflow/dags/air.py for tasks to queue
+[2025-07-17T22:29:05.033+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:29:05.032+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/wal/airflow/dags/air.py
+[2025-07-17T22:29:06.095+0300] {processor.py:840} INFO - DAG(s) 'save_weather' retrieved from /home/wal/airflow/dags/air.py
+[2025-07-17T22:29:10.543+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:29:10.542+0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-17T22:29:11.345+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:29:11.344+0300] {dag.py:3954} INFO - Setting next_dagrun for save_weather to 2025-07-17 18:00:00+00:00, run_after=2025-07-17 19:00:00+00:00
+[2025-07-17T22:29:15.199+0300] {processor.py:183} INFO - Processing /home/wal/airflow/dags/air.py took 10.213 seconds
+[2025-07-17T22:29:45.948+0300] {processor.py:161} INFO - Started process (PID=104335) to work on /home/wal/airflow/dags/air.py
+[2025-07-17T22:29:45.965+0300] {processor.py:830} INFO - Processing file /home/wal/airflow/dags/air.py for tasks to queue
+[2025-07-17T22:29:45.974+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:29:45.972+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/wal/airflow/dags/air.py
+[2025-07-17T22:29:47.019+0300] {processor.py:840} INFO - DAG(s) 'save_weather' retrieved from /home/wal/airflow/dags/air.py
+[2025-07-17T22:29:51.093+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:29:51.092+0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-17T22:29:56.378+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:29:56.378+0300] {dag.py:3954} INFO - Setting next_dagrun for save_weather to 2025-07-17 18:00:00+00:00, run_after=2025-07-17 19:00:00+00:00
+[2025-07-17T22:30:00.770+0300] {processor.py:183} INFO - Processing /home/wal/airflow/dags/air.py took 14.864 seconds
+[2025-07-17T22:30:31.007+0300] {processor.py:161} INFO - Started process (PID=104432) to work on /home/wal/airflow/dags/air.py
+[2025-07-17T22:30:31.018+0300] {processor.py:830} INFO - Processing file /home/wal/airflow/dags/air.py for tasks to queue
+[2025-07-17T22:30:31.022+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:30:31.022+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/wal/airflow/dags/air.py
+[2025-07-17T22:30:32.131+0300] {processor.py:840} INFO - DAG(s) 'save_weather' retrieved from /home/wal/airflow/dags/air.py
+[2025-07-17T22:30:37.487+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:30:37.486+0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-17T22:30:38.199+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:30:38.198+0300] {dag.py:3954} INFO - Setting next_dagrun for save_weather to 2025-07-17 18:00:00+00:00, run_after=2025-07-17 19:00:00+00:00
+[2025-07-17T22:30:42.061+0300] {processor.py:183} INFO - Processing /home/wal/airflow/dags/air.py took 11.068 seconds
+[2025-07-17T22:31:13.748+0300] {processor.py:161} INFO - Started process (PID=104524) to work on /home/wal/airflow/dags/air.py
+[2025-07-17T22:31:13.756+0300] {processor.py:830} INFO - Processing file /home/wal/airflow/dags/air.py for tasks to queue
+[2025-07-17T22:31:13.767+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:31:13.765+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/wal/airflow/dags/air.py
+[2025-07-17T22:31:14.662+0300] {processor.py:840} INFO - DAG(s) 'save_weather' retrieved from /home/wal/airflow/dags/air.py
+[2025-07-17T22:31:18.368+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:31:18.366+0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-17T22:31:19.134+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:31:19.132+0300] {dag.py:3954} INFO - Setting next_dagrun for save_weather to 2025-07-17 18:00:00+00:00, run_after=2025-07-17 19:00:00+00:00
+[2025-07-17T22:31:23.041+0300] {processor.py:183} INFO - Processing /home/wal/airflow/dags/air.py took 9.343 seconds
+[2025-07-17T22:31:53.887+0300] {processor.py:161} INFO - Started process (PID=104613) to work on /home/wal/airflow/dags/air.py
+[2025-07-17T22:31:53.904+0300] {processor.py:830} INFO - Processing file /home/wal/airflow/dags/air.py for tasks to queue
+[2025-07-17T22:31:53.912+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:31:53.910+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/wal/airflow/dags/air.py
+[2025-07-17T22:31:54.583+0300] {processor.py:840} INFO - DAG(s) 'save_weather' retrieved from /home/wal/airflow/dags/air.py
+[2025-07-17T22:31:58.373+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:31:58.372+0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-17T22:31:59.101+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:31:59.100+0300] {dag.py:3954} INFO - Setting next_dagrun for save_weather to 2025-07-17 18:00:00+00:00, run_after=2025-07-17 19:00:00+00:00
+[2025-07-17T22:32:03.487+0300] {processor.py:183} INFO - Processing /home/wal/airflow/dags/air.py took 9.643 seconds
+[2025-07-17T22:32:34.094+0300] {processor.py:161} INFO - Started process (PID=104699) to work on /home/wal/airflow/dags/air.py
+[2025-07-17T22:32:34.101+0300] {processor.py:830} INFO - Processing file /home/wal/airflow/dags/air.py for tasks to queue
+[2025-07-17T22:32:34.109+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:32:34.108+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/wal/airflow/dags/air.py
+[2025-07-17T22:32:34.944+0300] {processor.py:840} INFO - DAG(s) 'save_weather' retrieved from /home/wal/airflow/dags/air.py
+[2025-07-17T22:32:38.828+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:32:38.826+0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-17T22:32:39.491+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:32:39.491+0300] {dag.py:3954} INFO - Setting next_dagrun for save_weather to 2025-07-17 18:00:00+00:00, run_after=2025-07-17 19:00:00+00:00
+[2025-07-17T22:32:42.975+0300] {processor.py:183} INFO - Processing /home/wal/airflow/dags/air.py took 8.931 seconds
+[2025-07-17T22:33:13.362+0300] {processor.py:161} INFO - Started process (PID=104783) to work on /home/wal/airflow/dags/air.py
+[2025-07-17T22:33:13.379+0300] {processor.py:830} INFO - Processing file /home/wal/airflow/dags/air.py for tasks to queue
+[2025-07-17T22:33:13.389+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:33:13.387+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/wal/airflow/dags/air.py
+[2025-07-17T22:33:14.143+0300] {processor.py:840} INFO - DAG(s) 'save_weather' retrieved from /home/wal/airflow/dags/air.py
+[2025-07-17T22:33:17.798+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:33:17.797+0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-17T22:33:18.495+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:33:18.495+0300] {dag.py:3954} INFO - Setting next_dagrun for save_weather to 2025-07-17 18:00:00+00:00, run_after=2025-07-17 19:00:00+00:00
+[2025-07-17T22:33:22.028+0300] {processor.py:183} INFO - Processing /home/wal/airflow/dags/air.py took 8.707 seconds
+[2025-07-17T22:33:54.895+0300] {processor.py:161} INFO - Started process (PID=104876) to work on /home/wal/airflow/dags/air.py
+[2025-07-17T22:33:54.910+0300] {processor.py:830} INFO - Processing file /home/wal/airflow/dags/air.py for tasks to queue
+[2025-07-17T22:33:54.915+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:33:54.914+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/wal/airflow/dags/air.py
+[2025-07-17T22:33:55.437+0300] {processor.py:840} INFO - DAG(s) 'save_weather' retrieved from /home/wal/airflow/dags/air.py
+[2025-07-17T22:33:59.371+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:33:59.368+0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-17T22:34:00.075+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:34:00.074+0300] {dag.py:3954} INFO - Setting next_dagrun for save_weather to 2025-07-17 18:00:00+00:00, run_after=2025-07-17 19:00:00+00:00
+[2025-07-17T22:34:04.094+0300] {processor.py:183} INFO - Processing /home/wal/airflow/dags/air.py took 9.220 seconds
+[2025-07-17T22:34:34.431+0300] {processor.py:161} INFO - Started process (PID=104958) to work on /home/wal/airflow/dags/air.py
+[2025-07-17T22:34:34.449+0300] {processor.py:830} INFO - Processing file /home/wal/airflow/dags/air.py for tasks to queue
+[2025-07-17T22:34:34.454+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:34:34.453+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/wal/airflow/dags/air.py
+[2025-07-17T22:34:35.139+0300] {processor.py:840} INFO - DAG(s) 'save_weather' retrieved from /home/wal/airflow/dags/air.py
+[2025-07-17T22:34:38.830+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:34:38.829+0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-17T22:34:39.535+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:34:39.534+0300] {dag.py:3954} INFO - Setting next_dagrun for save_weather to 2025-07-17 18:00:00+00:00, run_after=2025-07-17 19:00:00+00:00
+[2025-07-17T22:34:42.945+0300] {processor.py:183} INFO - Processing /home/wal/airflow/dags/air.py took 8.547 seconds
+[2025-07-17T22:35:14.105+0300] {processor.py:161} INFO - Started process (PID=105047) to work on /home/wal/airflow/dags/air.py
+[2025-07-17T22:35:14.121+0300] {processor.py:830} INFO - Processing file /home/wal/airflow/dags/air.py for tasks to queue
+[2025-07-17T22:35:14.128+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:35:14.127+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/wal/airflow/dags/air.py
+[2025-07-17T22:35:14.816+0300] {processor.py:840} INFO - DAG(s) 'save_weather' retrieved from /home/wal/airflow/dags/air.py
+[2025-07-17T22:35:18.742+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:35:18.740+0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-17T22:35:19.558+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:35:19.558+0300] {dag.py:3954} INFO - Setting next_dagrun for save_weather to 2025-07-17 18:00:00+00:00, run_after=2025-07-17 19:00:00+00:00
+[2025-07-17T22:35:23.004+0300] {processor.py:183} INFO - Processing /home/wal/airflow/dags/air.py took 8.930 seconds
+[2025-07-17T22:35:54.221+0300] {processor.py:161} INFO - Started process (PID=105132) to work on /home/wal/airflow/dags/air.py
+[2025-07-17T22:35:54.226+0300] {processor.py:830} INFO - Processing file /home/wal/airflow/dags/air.py for tasks to queue
+[2025-07-17T22:35:54.235+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:35:54.233+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/wal/airflow/dags/air.py
+[2025-07-17T22:35:54.995+0300] {processor.py:840} INFO - DAG(s) 'save_weather' retrieved from /home/wal/airflow/dags/air.py
+[2025-07-17T22:35:58.673+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:35:58.672+0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-17T22:35:59.965+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:35:59.964+0300] {dag.py:3954} INFO - Setting next_dagrun for save_weather to 2025-07-17 18:00:00+00:00, run_after=2025-07-17 19:00:00+00:00
+[2025-07-17T22:36:03.402+0300] {processor.py:183} INFO - Processing /home/wal/airflow/dags/air.py took 9.224 seconds
+[2025-07-17T22:36:34.568+0300] {processor.py:161} INFO - Started process (PID=105217) to work on /home/wal/airflow/dags/air.py
+[2025-07-17T22:36:34.570+0300] {processor.py:830} INFO - Processing file /home/wal/airflow/dags/air.py for tasks to queue
+[2025-07-17T22:36:34.574+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:36:34.573+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/wal/airflow/dags/air.py
+[2025-07-17T22:36:35.279+0300] {processor.py:840} INFO - DAG(s) 'save_weather' retrieved from /home/wal/airflow/dags/air.py
+[2025-07-17T22:36:40.404+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:36:40.403+0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-17T22:36:41.086+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:36:41.085+0300] {dag.py:3954} INFO - Setting next_dagrun for save_weather to 2025-07-17 18:00:00+00:00, run_after=2025-07-17 19:00:00+00:00
+[2025-07-17T22:36:44.981+0300] {processor.py:183} INFO - Processing /home/wal/airflow/dags/air.py took 10.431 seconds
+[2025-07-17T22:37:17.092+0300] {processor.py:161} INFO - Started process (PID=105304) to work on /home/wal/airflow/dags/air.py
+[2025-07-17T22:37:17.108+0300] {processor.py:830} INFO - Processing file /home/wal/airflow/dags/air.py for tasks to queue
+[2025-07-17T22:37:17.115+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:37:17.113+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/wal/airflow/dags/air.py
+[2025-07-17T22:37:17.891+0300] {processor.py:840} INFO - DAG(s) 'save_weather' retrieved from /home/wal/airflow/dags/air.py
+[2025-07-17T22:37:21.725+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:37:21.723+0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-17T22:37:22.400+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:37:22.399+0300] {dag.py:3954} INFO - Setting next_dagrun for save_weather to 2025-07-17 18:00:00+00:00, run_after=2025-07-17 19:00:00+00:00
+[2025-07-17T22:37:25.913+0300] {processor.py:183} INFO - Processing /home/wal/airflow/dags/air.py took 8.850 seconds
+[2025-07-17T22:37:56.200+0300] {processor.py:161} INFO - Started process (PID=105383) to work on /home/wal/airflow/dags/air.py
+[2025-07-17T22:37:56.214+0300] {processor.py:830} INFO - Processing file /home/wal/airflow/dags/air.py for tasks to queue
+[2025-07-17T22:37:56.218+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:37:56.217+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/wal/airflow/dags/air.py
+[2025-07-17T22:37:56.853+0300] {processor.py:840} INFO - DAG(s) 'save_weather' retrieved from /home/wal/airflow/dags/air.py
+[2025-07-17T22:38:01.187+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:38:01.186+0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-17T22:38:02.507+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:38:02.506+0300] {dag.py:3954} INFO - Setting next_dagrun for save_weather to 2025-07-17 18:00:00+00:00, run_after=2025-07-17 19:00:00+00:00
+[2025-07-17T22:38:05.972+0300] {processor.py:183} INFO - Processing /home/wal/airflow/dags/air.py took 9.790 seconds
+[2025-07-17T22:38:36.952+0300] {processor.py:161} INFO - Started process (PID=105467) to work on /home/wal/airflow/dags/air.py
+[2025-07-17T22:38:36.967+0300] {processor.py:830} INFO - Processing file /home/wal/airflow/dags/air.py for tasks to queue
+[2025-07-17T22:38:36.976+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:38:36.975+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/wal/airflow/dags/air.py
+[2025-07-17T22:38:37.560+0300] {processor.py:840} INFO - DAG(s) 'save_weather' retrieved from /home/wal/airflow/dags/air.py
+[2025-07-17T22:38:42.608+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:38:42.606+0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-17T22:38:43.276+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:38:43.275+0300] {dag.py:3954} INFO - Setting next_dagrun for save_weather to 2025-07-17 18:00:00+00:00, run_after=2025-07-17 19:00:00+00:00
+[2025-07-17T22:38:46.632+0300] {processor.py:183} INFO - Processing /home/wal/airflow/dags/air.py took 9.711 seconds
+[2025-07-17T22:39:17.930+0300] {processor.py:161} INFO - Started process (PID=105551) to work on /home/wal/airflow/dags/air.py
+[2025-07-17T22:39:17.945+0300] {processor.py:830} INFO - Processing file /home/wal/airflow/dags/air.py for tasks to queue
+[2025-07-17T22:39:17.950+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:39:17.950+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/wal/airflow/dags/air.py
+[2025-07-17T22:39:18.660+0300] {processor.py:840} INFO - DAG(s) 'save_weather' retrieved from /home/wal/airflow/dags/air.py
+[2025-07-17T22:39:22.971+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:39:22.969+0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-17T22:39:23.801+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:39:23.800+0300] {dag.py:3954} INFO - Setting next_dagrun for save_weather to 2025-07-17 18:00:00+00:00, run_after=2025-07-17 19:00:00+00:00
+[2025-07-17T22:39:27.241+0300] {processor.py:183} INFO - Processing /home/wal/airflow/dags/air.py took 9.352 seconds
+[2025-07-17T22:39:57.717+0300] {processor.py:161} INFO - Started process (PID=105634) to work on /home/wal/airflow/dags/air.py
+[2025-07-17T22:39:57.720+0300] {processor.py:830} INFO - Processing file /home/wal/airflow/dags/air.py for tasks to queue
+[2025-07-17T22:39:57.724+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:39:57.723+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/wal/airflow/dags/air.py
+[2025-07-17T22:39:58.493+0300] {processor.py:840} INFO - DAG(s) 'save_weather' retrieved from /home/wal/airflow/dags/air.py
+[2025-07-17T22:40:03.926+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:40:03.925+0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-17T22:40:04.630+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:40:04.629+0300] {dag.py:3954} INFO - Setting next_dagrun for save_weather to 2025-07-17 18:00:00+00:00, run_after=2025-07-17 19:00:00+00:00
+[2025-07-17T22:40:09.089+0300] {processor.py:183} INFO - Processing /home/wal/airflow/dags/air.py took 11.388 seconds
+[2025-07-17T22:40:40.758+0300] {processor.py:161} INFO - Started process (PID=105721) to work on /home/wal/airflow/dags/air.py
+[2025-07-17T22:40:40.772+0300] {processor.py:830} INFO - Processing file /home/wal/airflow/dags/air.py for tasks to queue
+[2025-07-17T22:40:40.777+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:40:40.777+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/wal/airflow/dags/air.py
+[2025-07-17T22:40:41.440+0300] {processor.py:840} INFO - DAG(s) 'save_weather' retrieved from /home/wal/airflow/dags/air.py
+[2025-07-17T22:40:45.362+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:40:45.361+0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-17T22:40:46.025+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:40:46.024+0300] {dag.py:3954} INFO - Setting next_dagrun for save_weather to 2025-07-17 18:00:00+00:00, run_after=2025-07-17 19:00:00+00:00
+[2025-07-17T22:40:49.900+0300] {processor.py:183} INFO - Processing /home/wal/airflow/dags/air.py took 9.159 seconds
+[2025-07-17T22:41:20.680+0300] {processor.py:161} INFO - Started process (PID=105799) to work on /home/wal/airflow/dags/air.py
+[2025-07-17T22:41:20.693+0300] {processor.py:830} INFO - Processing file /home/wal/airflow/dags/air.py for tasks to queue
+[2025-07-17T22:41:20.697+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:41:20.696+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/wal/airflow/dags/air.py
+[2025-07-17T22:41:21.301+0300] {processor.py:840} INFO - DAG(s) 'save_weather' retrieved from /home/wal/airflow/dags/air.py
+[2025-07-17T22:41:25.151+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:41:25.150+0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-17T22:41:25.830+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:41:25.829+0300] {dag.py:3954} INFO - Setting next_dagrun for save_weather to 2025-07-17 18:00:00+00:00, run_after=2025-07-17 19:00:00+00:00
+[2025-07-17T22:41:29.421+0300] {processor.py:183} INFO - Processing /home/wal/airflow/dags/air.py took 8.752 seconds
+[2025-07-17T22:42:00.542+0300] {processor.py:161} INFO - Started process (PID=105876) to work on /home/wal/airflow/dags/air.py
+[2025-07-17T22:42:00.553+0300] {processor.py:830} INFO - Processing file /home/wal/airflow/dags/air.py for tasks to queue
+[2025-07-17T22:42:00.562+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:42:00.560+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/wal/airflow/dags/air.py
+[2025-07-17T22:42:01.177+0300] {processor.py:840} INFO - DAG(s) 'save_weather' retrieved from /home/wal/airflow/dags/air.py
+[2025-07-17T22:42:05.258+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:42:05.256+0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-17T22:42:05.953+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:42:05.952+0300] {dag.py:3954} INFO - Setting next_dagrun for save_weather to 2025-07-17 18:00:00+00:00, run_after=2025-07-17 19:00:00+00:00
+[2025-07-17T22:42:09.415+0300] {processor.py:183} INFO - Processing /home/wal/airflow/dags/air.py took 8.904 seconds
+[2025-07-17T22:42:40.366+0300] {processor.py:161} INFO - Started process (PID=105960) to work on /home/wal/airflow/dags/air.py
+[2025-07-17T22:42:40.383+0300] {processor.py:830} INFO - Processing file /home/wal/airflow/dags/air.py for tasks to queue
+[2025-07-17T22:42:40.393+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:42:40.392+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/wal/airflow/dags/air.py
+[2025-07-17T22:42:40.908+0300] {processor.py:840} INFO - DAG(s) 'save_weather' retrieved from /home/wal/airflow/dags/air.py
+[2025-07-17T22:42:45.316+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:42:45.314+0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-17T22:42:45.992+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:42:45.991+0300] {dag.py:3954} INFO - Setting next_dagrun for save_weather to 2025-07-17 18:00:00+00:00, run_after=2025-07-17 19:00:00+00:00
+[2025-07-17T22:42:49.406+0300] {processor.py:183} INFO - Processing /home/wal/airflow/dags/air.py took 9.070 seconds
+[2025-07-17T22:43:20.037+0300] {processor.py:161} INFO - Started process (PID=106040) to work on /home/wal/airflow/dags/air.py
+[2025-07-17T22:43:20.053+0300] {processor.py:830} INFO - Processing file /home/wal/airflow/dags/air.py for tasks to queue
+[2025-07-17T22:43:20.059+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:43:20.058+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/wal/airflow/dags/air.py
+[2025-07-17T22:43:20.836+0300] {processor.py:840} INFO - DAG(s) 'save_weather' retrieved from /home/wal/airflow/dags/air.py
+[2025-07-17T22:43:25.250+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:43:25.249+0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-17T22:43:25.930+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:43:25.930+0300] {dag.py:3954} INFO - Setting next_dagrun for save_weather to 2025-07-17 18:00:00+00:00, run_after=2025-07-17 19:00:00+00:00
+[2025-07-17T22:43:30.294+0300] {processor.py:183} INFO - Processing /home/wal/airflow/dags/air.py took 10.283 seconds
+[2025-07-17T22:44:00.708+0300] {processor.py:161} INFO - Started process (PID=106117) to work on /home/wal/airflow/dags/air.py
+[2025-07-17T22:44:00.713+0300] {processor.py:830} INFO - Processing file /home/wal/airflow/dags/air.py for tasks to queue
+[2025-07-17T22:44:00.721+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:44:00.720+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/wal/airflow/dags/air.py
+[2025-07-17T22:44:01.446+0300] {processor.py:840} INFO - DAG(s) 'save_weather' retrieved from /home/wal/airflow/dags/air.py
+[2025-07-17T22:44:05.379+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:44:05.377+0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-17T22:44:06.084+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:44:06.083+0300] {dag.py:3954} INFO - Setting next_dagrun for save_weather to 2025-07-17 18:00:00+00:00, run_after=2025-07-17 19:00:00+00:00
+[2025-07-17T22:44:09.515+0300] {processor.py:183} INFO - Processing /home/wal/airflow/dags/air.py took 8.843 seconds
+[2025-07-17T22:44:41.321+0300] {processor.py:161} INFO - Started process (PID=106195) to work on /home/wal/airflow/dags/air.py
+[2025-07-17T22:44:41.337+0300] {processor.py:830} INFO - Processing file /home/wal/airflow/dags/air.py for tasks to queue
+[2025-07-17T22:44:41.343+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:44:41.342+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/wal/airflow/dags/air.py
+[2025-07-17T22:44:41.886+0300] {processor.py:840} INFO - DAG(s) 'save_weather' retrieved from /home/wal/airflow/dags/air.py
+[2025-07-17T22:44:45.835+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:44:45.834+0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-17T22:44:46.522+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:44:46.522+0300] {dag.py:3954} INFO - Setting next_dagrun for save_weather to 2025-07-17 18:00:00+00:00, run_after=2025-07-17 19:00:00+00:00
+[2025-07-17T22:44:50.212+0300] {processor.py:183} INFO - Processing /home/wal/airflow/dags/air.py took 8.917 seconds
+[2025-07-17T22:45:21.922+0300] {processor.py:161} INFO - Started process (PID=106284) to work on /home/wal/airflow/dags/air.py
+[2025-07-17T22:45:21.928+0300] {processor.py:830} INFO - Processing file /home/wal/airflow/dags/air.py for tasks to queue
+[2025-07-17T22:45:21.935+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:45:21.934+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/wal/airflow/dags/air.py
+[2025-07-17T22:45:22.684+0300] {processor.py:840} INFO - DAG(s) 'save_weather' retrieved from /home/wal/airflow/dags/air.py
+[2025-07-17T22:45:26.556+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:45:26.555+0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-17T22:45:27.258+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:45:27.257+0300] {dag.py:3954} INFO - Setting next_dagrun for save_weather to 2025-07-17 18:00:00+00:00, run_after=2025-07-17 19:00:00+00:00
+[2025-07-17T22:45:30.654+0300] {processor.py:183} INFO - Processing /home/wal/airflow/dags/air.py took 8.763 seconds
+[2025-07-17T22:46:02.033+0300] {processor.py:161} INFO - Started process (PID=106358) to work on /home/wal/airflow/dags/air.py
+[2025-07-17T22:46:02.038+0300] {processor.py:830} INFO - Processing file /home/wal/airflow/dags/air.py for tasks to queue
+[2025-07-17T22:46:02.049+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:46:02.047+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/wal/airflow/dags/air.py
+[2025-07-17T22:46:02.695+0300] {processor.py:840} INFO - DAG(s) 'save_weather' retrieved from /home/wal/airflow/dags/air.py
+[2025-07-17T22:46:08.412+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:46:08.410+0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-17T22:46:09.074+0300] {logging_mixin.py:188} INFO - [2025-07-17T22:46:09.073+0300] {dag.py:3954} INFO - Setting next_dagrun for save_weather to 2025-07-17 18:00:00+00:00, run_after=2025-07-17 19:00:00+00:00
+[2025-07-17T22:46:12.832+0300] {processor.py:183} INFO - Processing /home/wal/airflow/dags/air.py took 10.836 seconds
+[2025-07-17T23:34:44.890+0300] {processor.py:161} INFO - Started process (PID=106486) to work on /home/wal/airflow/dags/air.py
+[2025-07-17T23:34:44.909+0300] {processor.py:830} INFO - Processing file /home/wal/airflow/dags/air.py for tasks to queue
+[2025-07-17T23:34:44.955+0300] {logging_mixin.py:188} INFO - [2025-07-17T23:34:44.941+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/wal/airflow/dags/air.py
+[2025-07-18T05:57:35.040+0300] {processor.py:840} INFO - DAG(s) 'save_weather' retrieved from /home/wal/airflow/dags/air.py
+[2025-07-18T05:57:39.633+0300] {logging_mixin.py:188} INFO - [2025-07-18T05:57:39.632+0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-18T05:57:40.247+0300] {logging_mixin.py:188} INFO - [2025-07-18T05:57:40.247+0300] {dag.py:3954} INFO - Setting next_dagrun for save_weather to 2025-07-18 01:00:00+00:00, run_after=2025-07-18 02:00:00+00:00
+[2025-07-18T05:57:44.533+0300] {processor.py:183} INFO - Processing /home/wal/airflow/dags/air.py took 14.463 seconds
